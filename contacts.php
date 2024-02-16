@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">   
+	<link rel="shortcut icon" href="images/sfavicon.ico" />
     <script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
     <script src="js/cufon-yui.js" type="text/javascript"></script>
     <script src="js/cufon-replace.js" type="text/javascript"></script>
@@ -45,8 +46,8 @@
             <div class="row-bot-bg">
                 <div class="main">
                     <div class="wrapper">
-                       <h1><a href="index.html">Creators Engineers & Interiors Pvt.Ltd.</a></h1>
-                        <h2>Creators Engineers & Interiors Pvt.Ltd</h2>
+                      <h1><image src='images/logotc.png'  height='100' width='100' ></image></h1>
+                       <h2 ><b><font color='maroon' >CREATORS</font></b> <br><font color='grey' >ENGINEERS & INTERIORS Pvt. Ltd.</font></h2>
                     </div>
                 </div>
             </div>
@@ -67,20 +68,19 @@
                             <div class="clear"></div>
                         </div>
                         <dl>
-                            <dt class="p1">Head Office : New Delhi</dt>
-                            <dd><span>Telephone:</span>  +1 800 603 6035</dd>
-                            <dd><span>Fax:</span>  +1 800 889 9898</dd>
-                            <dd><span>Email:</span> <a href="#">mail@demolink.org</a></dd>
+                            <dt class="p1"><span>Head Office :</span>  Chennai</dt>
+                            <dd><span>Address:</span>  #4, Anand Apartments, 24 South Avenue, Srinagar Colony, Saidapet, Chennai, TamilNadu - 600015</dd>
+							<dd><span>Telephone:</span>  044 65395177</dd>
                         </dl>
-						 <dl>
-                            <dt class="p1">Branch Office : Chennai</dt>
-                            <dd><span>Telephone:</span>  +1 800 603 6035</dd>
-                            <dd><span>Email:</span> <a href="#">mail@demolink.org</a></dd>
+						<dl>
+                            <dt class="p1"><span>Branch Office :</span> Trichy</dt>
+                            <dd><span>Address:</span>  #26, Angels Complex, T.V.S. Tolgate, Trichy, TamilNadu - 620020</dd>
+							<dd><span>Telephone:</span>  0431 2412288</dd>
                         </dl>
-						 <dl>
-                            <dt class="p1">Branch Office : Trichy</dt>
-                            <dd><span>Telephone:</span>  +1 800 603 6035</dd>
-                            <dd><span>Email:</span> <a href="#">mail@demolink.org</a></dd>
+						<dl>
+                            <dt class="p1"><span>Branch Office :</span> New Delhi</dt>
+                            <dd><span>Address:</span>  #651, Dr.Mukerjee Nagar, New Delhi - 110009</dd>
+							<dd><span>Telephone:</span>  011 55950650</dd>
                         </dl>
                     </article>
                     <article class="grid_8">

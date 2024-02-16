@@ -1,0 +1,54 @@
+<!--==============================aside================================-->
+    <aside>
+    	<div class="carousel">
+	        <a class="prev"></a>
+            <a class="next"></a>
+            <div class="carousel-container">
+                <h3>Popular Design Projects</h3>
+                <div class="jCarouselLite">
+                    <ul class="carousel-list">
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img2.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img3.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img4.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img5.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img6.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img7.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img8.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-border">
+                                <a href="#"><img src="images/page1-img9.jpg" alt="" /></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </aside>
