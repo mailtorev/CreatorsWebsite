@@ -68,26 +68,33 @@
                 </div>
               </div>
             <!-- Slideshow container -->
-            <div class="wrap">
-                <div id="arrow-left" class="arrow"></div>
-                <div id="slider">
-                    <div class="slide slide1">
-                        <div class="slide-content">
-                            <span>Image One</span>
-                        </div>
-                    </div>
-                    <div class="slide slide2">
-                        <div class="slide-content">
-                            <span>Image Two</span>
-                        </div>
-                    </div>
-                    <div class="slide slide3">
-                        <div class="slide-content">
-                            <span>Image Three</span>
-                        </div>
+            <div class="minislider">
+                <div class="slide">
+                    <img src="images/page4-img1.jpg" alt="Image 1">
+                    <div class="caption">
+                        <h3 class="p1">IGCAR – HTER Building work at Kalpakkam
+                        </h3>
+                        <p>The height of the Building 23 Mtrs, 50mm thk sandwich Panel for roofing and <br>
+                            Wallpanels Including foundation And civil works</p>
+                        <p>Total value of Project Rs.506.00L(Enhanced Value 7% per annum Rs. 759.36L)
+                        </p>
                     </div>
                 </div>
-                <div id="arrow-right" class="arrow"></div>
+                <div class="slide">
+                    <img src="images/page4-img2.jpg" alt="Image 2">
+                    <div class="caption"><h3 class="p1">Auditorium </h3>
+
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/page4-img3.jpg" alt="Image 3">
+                    <div class="caption"><h3 class="p1">TEST h1 </h3>
+                        <p>Blah3 Bla3h Blah 3 </p>
+
+                    </div>
+                </div>
+                <!-- Repeat for other images -->
             </div>
 
 
@@ -132,5 +139,19 @@
 			});
 		});
 	</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.minislider .slide:gt(0)').hide();
+
+            setInterval(function () {
+                $('.minislider .slide:first-child')
+                    .fadeOut()
+                    .next('.slide')
+                    .fadeIn()
+                    .end()
+                    .appendTo('.minislider');
+            }, 3000);
+        });
+    </script>
 </body>
 </html>
