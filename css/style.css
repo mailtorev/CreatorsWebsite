@@ -171,7 +171,7 @@ h2 .tail {
 
 /***** slider *****/
 .slider-wrapper {
-	width:920px;
+	width:910px;
 	height:347px;
 	padding:10px;
 	margin:0 auto 34px;
@@ -180,7 +180,7 @@ h2 .tail {
 	background:url(../images/slider-bg.png) 0 0 no-repeat;
 }
 .slider {
-	width:920px;
+	width:910px;
 	height:347px;
 }
 .items {display:none;}
@@ -613,7 +613,7 @@ footer {
 /********************Portfolio Slideshow ************/
 .minislider {
 	width: 910px;
-	height: 647px;
+	height: 705px;
 	background-color: black;
 	position: relative;
 	float: left;
@@ -624,7 +624,7 @@ footer {
 
 .minislider img {
 	width: 900px;
-	height: 347px;
+	height: 500px;
 	position: absolute;
 	left: 5px;
 	top: 5px;
@@ -641,9 +641,9 @@ footer {
 	padding-bottom : 5px;
 	text-align: center;*/
 
-
-	height : 277px;
 	width: 890px;
+	height : 200px;
+	
 	background-color: white;
 	color: black;
 	text-align: center;
